@@ -9,9 +9,9 @@ OBJ = $(SRC:.c=.o)
 all: $(NAME)
 
 $(NAME): $(OBJ)
-    $(AR) rcs $@ $^
+    $(AR) rcs $(NAME) $(OBJ)
 
-%.o: %.c hblk_crypto.h
+%.o: %.c
     $(CC) $(CFLAGS) -c $< -o $@
 
 clean:
