@@ -7,5 +7,8 @@
  */
 void block_destroy(block_t *block)
 {
-    /* Code goes here */
+	if (block)
+	{
+		free(block);
+	}
 }
