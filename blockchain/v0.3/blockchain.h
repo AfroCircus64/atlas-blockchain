@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#include "transaction/transaction.h"
 #include "../../crypto/llist/llist.h"
 #include <openssl/sha.h>
 
