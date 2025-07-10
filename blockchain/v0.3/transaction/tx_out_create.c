@@ -23,7 +23,7 @@ tx_out_t *tx_out_create(uint32_t amount, uint8_t const pub[EC_PUB_LEN])
 	memcpy(out->pub, pub, EC_PUB_LEN);
 	memcpy(buf, &out->amount, sizeof(uint32_t));
 	memcpy(buf + sizeof(uint32_t), out->pub, EC_PUB_LEN);
-	sha256(buf, sizeof(buf), out->hash);
+	sha256((const int8_t *)buf, sizeof(buf), out->hash);
 
 	return (out);
 }
