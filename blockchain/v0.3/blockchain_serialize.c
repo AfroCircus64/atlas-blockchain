@@ -2,7 +2,7 @@
 #include "provided/endianness.h"
 
 #define HBLK_MAGIC "HBLK"
-#define HBLK_VERSION "0.2"
+#define HBLK_VERSION "0.3"
 
 #include <unistd.h>
 
