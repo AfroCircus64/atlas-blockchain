@@ -4,7 +4,7 @@
 #define COINBASE_AMOUNT 50
 
 #include <stdlib.h>
-#include <../../../llist/llist.h>
+#include <../../../crypto/llist/llist.h>
 #include <stdio.h>
 #include <string.h>
 #include <sys/stat.h>
