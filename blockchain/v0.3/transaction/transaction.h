@@ -1,7 +1,6 @@
 #ifndef TRANSACTION_H
 #define TRANSACTION_H
 
-#define MAX_TRANSACTIONS 15
 #define COINBASE_AMOUNT 50
 
 #include <stdlib.h>
